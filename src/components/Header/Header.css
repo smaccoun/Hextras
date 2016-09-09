@@ -14,7 +14,7 @@
 }
 
 .root {
-  background: #373277;
+  background: black;
   color: #fff;
 }
 
@@ -25,13 +25,18 @@
 }
 
 .brand {
-  color: color(var(--brand-color) lightness(+10%));
+  /*color: color(var(--brand-color) lightness(+10%));*/
   text-decoration: none;
   font-size: 1.75em; /* ~28px */
 }
 
 .brandTxt {
   margin-left: 10px;
+  color : #30a5ff;
+}
+
+.brandTxt > span {
+  color: #fff;
 }
 
 .nav {
@@ -49,6 +54,11 @@
   font-weight: normal;
   font-size: 4em;
   line-height: 1em;
+  color : #30a5ff;
+}
+
+.bannerTitle > span {
+  color: #fff
 }
 
 .bannerDesc {

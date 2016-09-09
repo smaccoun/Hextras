@@ -20,11 +20,10 @@ function Header() {
       <div className={s.container}>
         <Navigation className={s.nav} />
         <Link className={s.brand} to="/">
-          <img src={logoUrl} width="38" height="38" alt="React" />
-          <span className={s.brandTxt}>Hextras</span>
+          <span className={s.brandTxt}>SET<span>X</span></span>
         </Link>
         <div className={s.banner}>
-          <h1 className={s.bannerTitle}>Hextras</h1>
+          <h1 className={s.bannerTitle}>SET<span>X</span></h1>
           <p className={s.bannerDesc}>Signing up extras made easy</p>
         </div>
       </div>
